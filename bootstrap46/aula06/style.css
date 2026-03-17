@@ -1,0 +1,64 @@
+/* Fonte geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Carousel */
+.carousel img {
+    border-radius: 10px;
+}
+
+/* Boxes do dashboard */
+.d-flex div {
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Botões */
+.btn {
+    border-radius: 8px;
+}
+
+/* Tabela */
+.table {
+    background: white;
+}
+
+/* Input filtro */
+#filtro {
+    border-radius: 8px;
+}
+
+/* Formulário */
+form input,
+form select {
+    border-radius: 8px !important;
+}
+
+/* Toast */
+.toast {
+    min-width: 200px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .d-flex div {
+        margin-bottom: 10px;
+    }
+}
